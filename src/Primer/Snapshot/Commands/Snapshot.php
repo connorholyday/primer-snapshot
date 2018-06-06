@@ -1,4 +1,4 @@
-<?php namespace Rareloop\Primer\Commands;
+<?php namespace Rareloop\Primer\Snapshot\Commands;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
