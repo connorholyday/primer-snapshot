@@ -12,7 +12,7 @@ class Snapshot extends Command
 {
     protected function configure()
     {
-        $this->workingDirectory = __DIR__.'/../../../';
+        $this->workingDirectory = __DIR__.'/../../../../';
 
         $this
             ->setName('snapshot')
