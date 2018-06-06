@@ -6,8 +6,8 @@
   "author": "Connor Holyday <connor.holyday@rareloop.com>",
   "license": "MIT",
   "scripts": {
-      "snapshot": "jest",
-      "update-snapshots": "jest --updateSnapshot"
+    "snapshot": "jest",
+    "update-snapshots": "jest --updateSnapshot"
   },
   "dependencies": {
     "jest": "^23.1.0",
