@@ -1,0 +1,17 @@
+{
+  "name": "primer-snapshot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/connorholyday/primer-snapshot",
+  "author": "Connor Holyday <connor.holyday@rareloop.com>",
+  "license": "MIT",
+  "scripts": {
+      "snapshot": "jest",
+      "update-snapshots": "jest --updateSnapshot"
+  },
+  "dependencies": {
+    "jest": "^23.1.0",
+    "jest-image-snapshot": "^2.4.2",
+    "puppeteer": "^1.4.0"
+  }
+}

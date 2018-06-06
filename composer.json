@@ -1,0 +1,23 @@
+{
+    "name": "rareloop/primer-snapshot",
+    "description": "Visual regression testing for Primer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Connor Holyday",
+            "email": "connor.holyday@rareloop.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rareloop\\Primer\\Snapshot\\": "src/Primer/Snapshot"
+        }
+    },
+    "minimum-stability": "stable",
+    "post-install-cmd": [
+        "npm install"
+    ]
+}
