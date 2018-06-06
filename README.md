@@ -53,13 +53,13 @@ Event::listen('cli.init', function ($cli) {
 This will add a new command to the Primer CLI.
 
 ## Usage
-````
+````php
 php primer snapshot [--options]
 ````
 
 Run snapshots on all components
 
-````
+````php
 php primer snapshot --update
 ````
 
